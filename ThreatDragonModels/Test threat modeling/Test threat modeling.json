@@ -11,11 +11,6 @@
         "title": "Aset",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
-      },
-      {
-        "title": "Threats",
-        "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 1
       }
     ],
     "reviewer": "Eksternal Team"
