@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Test threat modeling",
+    "owner": "Internal Team",
+    "description": "This is an example of threat modeling"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Eksternal Team"
+  }
+}
