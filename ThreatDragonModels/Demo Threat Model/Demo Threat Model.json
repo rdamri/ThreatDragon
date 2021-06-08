@@ -283,10 +283,28 @@
               "z": 6,
               "privilegeLevel": "executionContext =Limited",
               "outOfScope": false,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "XSS Attack",
+                  "type": "Tampering",
+                  "description": "XSS attack when user search a product",
+                  "mitigation": "Use Security encoding library"
+                },
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "Insecure Backup",
+                  "type": "Repudiation",
+                  "description": "Insecure Backup",
+                  "mitigation": "Making a Hot Backup with MySQL Enterprise Backup"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Web\nApplication"
@@ -298,7 +316,7 @@
                   "class": "undefinedhasNoOpenThreats isInScope"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
